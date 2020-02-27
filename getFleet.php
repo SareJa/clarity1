@@ -45,7 +45,7 @@ if(mysqli_query($conn, $sql)){
 	
 	<table>
 		<tr>
-			<td>Timestamps</td>
+			<td>Timestamp sa</td>
 			<td>Car Name</td>
 			<td>Engine coolant temperature</td>
 			<td>Engine RPM</td>
