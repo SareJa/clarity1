@@ -1,6 +1,6 @@
 <?php
 
-require_once 'config.php';
+require_once 'config_local.php';
 
 	
 	// Create a stream
