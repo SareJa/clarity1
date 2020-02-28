@@ -1,6 +1,6 @@
 <?php
 var_dump($_SERVER);
-exit();
+
 require_once 'config.php';
 	
 	// Create a stream
