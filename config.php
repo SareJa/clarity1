@@ -5,7 +5,7 @@ $user = "root";
 $pass = "toor1234!";
 $db = "vehicles";
 
-$conn = mysqli_connect($host, $user, $pass,$db) or die("Connect failed: %s\n");
+$conn = mysql_connect($host, $user, $pass,$db) or die("Connect failed: %s\n");
 
 if($conn){
     echo "Conected Successful <br>";
