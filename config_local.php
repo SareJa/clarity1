@@ -1,6 +1,6 @@
 <?php
 
-$host = "127.0.0.1";
+$host = "localhost";
 $user = "phpmyadmin";
 $pass = "toor1234!";
 $db = "vehicles";
