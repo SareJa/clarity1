@@ -1,9 +1,6 @@
 <?php
 
-$host = "localhost";
-$user = "root";
-$pass = "toor1234!";
-$db = "vehicles";
+require_once 'config.php';
 
 $conn = mysqli_connect($host, $user, $pass,$db) or die("Connect failed: %s\n");
 
