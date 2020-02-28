@@ -1,8 +1,8 @@
 <?php
 
-require_once 'config.php';
-
-$conn = mysqli_connect($host, $user, $pass,$db) or die("Connect failed: %s\n");
+//require_once 'config.php';
+//
+//$conn = mysqli_connect($host, $user, $pass,$db) or die("Connect failed: %s\n");
 
 /* if($conn){
 echo "Conected Successful <br>";
@@ -57,13 +57,6 @@ if(mysqli_query($conn, $sql)){
 	
 	
 	<?php foreach ($vehicles->vehicles as $vehicle) {
-		$sql = "INSERT INTO vehicles(timestamp, car_name, engine_coolant_temperature, engine_rpm, transmission_fluid_temperature, 
-		transmission_shift_time, turbo_rpm, brake_temperature, speed, battery_voltage, current_fuel_consumption) 
-		VALUES('$vehicle->Timestamp', '$vehicle->Car_Name', '$vehicle->Engine_coolant_temperature', '$vehicle->Engine_RPM', 
-		'$vehicle->Transmission_fluid_temperature', '$vehicle->Transmission_shift_time', '$vehicle->Turbo_RPM', '$vehicle->Brake_Temperature',
-		'$vehicle->Speed', '$vehicle->Battery_Voltage', '$vehicle->Current_Fuel_Consumption')";
-		
-		mysqli_query($conn, $sql);	
 	?>
 
 		<tr>
@@ -88,5 +81,3 @@ if(mysqli_query($conn, $sql)){
 	
 	
 <?php
-// Close connection
-mysqli_close($conn);
