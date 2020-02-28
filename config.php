@@ -1,6 +1,6 @@
 <?php
 
-$host = "3.229.68.206";
+$host = "172.31.85.178";
 $user = "root";
 $pass = "toor1234!";
 $db = "clarity";
