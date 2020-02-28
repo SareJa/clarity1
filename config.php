@@ -4,8 +4,9 @@ $host = "127.0.0.1";
 $user = "root";
 $pass = "toor1234!";
 $db = "vehicles";
+$port = 3306;
 
-$conn = mysql_connect($host, $user, $pass,$db) or die("Connect failed: %s\n");
+$conn = mysqli_connect($host, $user, $pass, $db, $port) or die("Connect failed: %s\n");
 
 if($conn){
     echo "Conected Successful <br>";
