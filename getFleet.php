@@ -2,8 +2,8 @@
 
 $host = "localhost";
 $user = "root";
-$pass = "";
-$db = "clarity";
+$pass = "toor1234!";
+$db = "vehicles";
 
 $conn = mysqli_connect($host, $user, $pass,$db) or die("Connect failed: %s\n");
 
