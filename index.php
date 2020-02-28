@@ -1,25 +1,6 @@
 <?php
 
-//require_once 'config.php';
-//
-//$conn = mysqli_connect($host, $user, $pass,$db) or die("Connect failed: %s\n");
-
-/* if($conn){
-echo "Conected Successful <br>";
-}
-else{
-echo "Not connected <br>";
-}
-
-$sql ="INSERT INTO test (day) VALUES('2')";
-
-if(mysqli_query($conn, $sql)){
-    echo "Records added successfully.";
-    echo "<br>";
-} else{
-    echo "Error: Could not able to execute $sql. " . mysqli_error($conn);
-}
-*/
+require_once 'config.php';
 
 	
 	// Create a stream
