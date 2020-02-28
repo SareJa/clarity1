@@ -1,7 +1,7 @@
 <?php
 
-$host = "ec2-3-229-68-206.compute-1.amazonaws.com";
-$user = "root";
+$host = "localhost";
+$user = "clarity";
 $pass = "toor1234!";
 $db = "clarity";
 $port = 3306;
