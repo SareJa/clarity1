@@ -1,6 +1,6 @@
 <?php
 
-$host = "172.31.85.178";
+$host = "ec2-3-229-68-206.compute-1.amazonaws.com";
 $user = "root";
 $pass = "toor1234!";
 $db = "clarity";
